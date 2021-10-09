@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1= intro
+    if name
+        p Welcome, #{name}
+    else if length
+        p This intro, #{intro} is #{length} letters long
+    else
+        p Welcome to #{intro}
