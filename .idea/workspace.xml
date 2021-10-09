@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd62afd-e699-4a74-b3d6-34e40e393e6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PS1.P1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/www.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ps3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -27,14 +32,29 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.8.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.10.3" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.www.js">
     <configuration name="PS1.P1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/PS1.P1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="ps3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ps3.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="www.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bin/www.js" working-dir="$PROJECT_DIR$/bin">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.www.js" />
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.ps3.js" />
         <item itemvalue="Node.js.PS1.P1.js" />
       </list>
     </recent_temporary>
@@ -55,21 +75,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1632431296778">
+    <state x="498" y="235" key="#Web_Browsers" timestamp="1633736885944">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1632431296778" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1632431296777">
+    <state x="498" y="235" key="#Web_Browsers/0.0.1440.900@0.0.1440.900" timestamp="1633736885944" />
+    <state x="184" y="112" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633736698466">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1632431296777" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1632431296776">
+    <state x="184" y="112" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1633736698466" />
+    <state width="709" height="245" key="GridCell.Tab.0.bottom" timestamp="1633744108804">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1632431296776" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1632431296778">
+    <state width="709" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1633744108804" />
+    <state width="709" height="245" key="GridCell.Tab.0.center" timestamp="1633744108802">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1632431296778" />
+    <state width="709" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1633744108802" />
+    <state width="709" height="245" key="GridCell.Tab.0.left" timestamp="1633744108801">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="709" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1633744108801" />
+    <state width="709" height="245" key="GridCell.Tab.0.right" timestamp="1633744108803">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="709" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1633744108803" />
   </component>
 </project>
